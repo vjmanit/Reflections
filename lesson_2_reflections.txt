@@ -4,6 +4,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+     Staging area is the area just before commiting a file.Initially file is created in working directory and repository is empty then before commiting a logical change we have to add it to staging area by using command "git add" and after adding a file in staging area then we perform commit and repositiry will not be empty after the commit operation.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
