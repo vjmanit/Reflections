@@ -8,9 +8,14 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+    If i  have changed the file in working directory and haven't added this in staging area then i can see the difference b/w files in working directory and staging area using commad "git diff".If i have already added it in staging area then git diff will show no difference.Now we can see the difference b/w staging area and previously commited file using command "git diff --staged".If there is no logical change in staging area then git diff --staged will show no difference b/w them.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+ 	There are following situations when branches would be helpful.
+	->When we are switching to some different versions
+	->When we want to work on any specific features
+	Bsically branches in git gives us freedom to think in any specific region of our project.The master branch always saves the original version and whenever we want to work on any specific direction we create a new branch and think freely in that direction because we have no fear for losing the data as the original data is saved in some other branch.	
 
 How do the diagrams help you visualize the branch structure?
 
