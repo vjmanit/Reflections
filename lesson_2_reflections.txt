@@ -18,6 +18,7 @@ organized? How would branches help?
 	Bsically branches in git gives us freedom to think in any specific region of our project.The master branch always saves the original version and whenever we want to work on any specific direction we create a new branch and think freely in that direction because we have no fear for losing the data as the original data is saved in some other branch.	
 
 How do the diagrams help you visualize the branch structure?
+	Diagrams help us to visualize the branch structure by checking reachability of each branch and helps us to find which branch contains which commit.It also helps us to find the detached head state i.e the new commit on a head commit.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
