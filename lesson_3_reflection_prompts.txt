@@ -1,3 +1,8 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
     When two or more  users are working on a project seperately we should use a remote repository.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+	Changes are the reason for conflicts.Suppose you want to add a feature and that consist of several commits and you have done many of the commits but not all and took the rest for sometime.Automatic pull will update to all the users working on a project and they may work on that feature that may cause conflict.
+
