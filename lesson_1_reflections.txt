@@ -33,4 +33,13 @@ could break something?
     version control make us more confident  to make changes because we can go to the previous version easily  if the changes we make is not sufficient
 Now that you have your workspace set up, what do you want to try using Git for?
     
-    I want to try git for saving my project.
+    I want to try git for  my new projects and also the previous one.
+
+Command used :
+	q |    exit git log!
+	git log  |    List the commits and show which files have changed
+	git log --stat  |    Show addition information about the commits
+	git diff id1 id2  |    Compare two commits
+	git clone  |    Create a local copy/clone from the repository
+	git config --global color.ui auto |    get colored diff output
+	git checkout  |    Shows a previous version of the file. This is not a checkout to edit like in SVN or TFS!
