@@ -6,3 +6,7 @@ Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 	Changes are the reason for conflicts.Suppose you want to add a feature and that consist of several commits and you have done many of the commits but not all and took the rest for sometime.Automatic pull will update to all the users working on a project and they may work on that feature that may cause conflict.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	fork-it is used to directly clone from one github account to another
+	clone-it is used to clone from one github account our pc
+	branches-it is used for changing in a file seperately with more than one branchs and we can push or pop any of the branches from github or your local git. 
